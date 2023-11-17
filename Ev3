@@ -1,0 +1,5 @@
+# Evidencia-3
+Elaborar una libreta Jupyter que contenga un programa que serialice a pickle un objeto,
+y que lo almacene en un archivo binario de extensión pickle. Debe ser posible la
+recuperación del contenido del archivo, mismo que debe poderse deserializarse, y obtener
+el objeto original.
