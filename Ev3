@@ -3,3 +3,12 @@ Elaborar una libreta Jupyter que contenga un programa que serialice a pickle un 
 y que lo almacene en un archivo binario de extensión pickle. Debe ser posible la
 recuperación del contenido del archivo, mismo que debe poderse deserializarse, y obtener
 el objeto original.
+
+En este ejemplo, se define una clase simple llamada MiObjeto con atributos nombre y edad.
+Luego, se proporcionan dos funciones: serializar_objeto para serializar y guardar el objeto
+en un archivo pickle, y deserializar_objeto para cargar y deserializar el objeto desde el archivo.
+
+La demostración de uso crea una instancia de MiObjeto, la serializa y guarda en un archivo
+pickle, luego recupera el contenido del archivo y deserializa para obtener el objeto original.
+Finalmente, se imprime la información del objeto original y del objeto recuperado para verificar
+que la deserialización fue exitosa.
